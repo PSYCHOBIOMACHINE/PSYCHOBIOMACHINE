@@ -27,7 +27,7 @@ I’m two years into full-stack development, currently building applications aro
 
 **(https://github.com/PSYCHOBIOMACHINE/Obsidian-RAG-Starter)**
 
-### Learning: Containerization and Networking
+### 2. Learning: Containerization and Networking
 **Stack: Docker, n8n, Discord**
 
 - This pursuit comes from my interest in understanding how full-stack applications live in the general internet space, and how architectures change when it comes time to scale.
