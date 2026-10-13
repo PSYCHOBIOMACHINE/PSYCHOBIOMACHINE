@@ -15,7 +15,7 @@ Building RAG and AI-assisted applications in TypeScript
 
 
 ## About me
-I’m two years into full-stack development, currently building applications around retrieval and inference while adding containerization and cloud networking to my toolkit. I’m also fascinated by LLMs' parallels with human cognition, and I want to learn work on these models directly.
+I’m two years into full-stack development, currently building applications around retrieval and inference while adding containerization and cloud networking to my toolkit. I’m also fascinated by LLMs' parallels with human cognition, and I want to work on these models directly.
 
 ## What I'm Working On
 
