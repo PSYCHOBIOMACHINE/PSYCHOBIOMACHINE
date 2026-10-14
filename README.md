@@ -16,19 +16,21 @@ Building RAG and AI-assisted applications in TypeScript
 
 
 ## About me
-I’m two years into full-stack development, currently building applications around retrieval and inference while adding containerization and cloud networking to my toolkit. I’m also fascinated by LLMs' parallels with human cognition, and I want to work on these models directly.
+I’m two years into full-stack development, currently building applications around retrieval and inference while adding containerization and cloud networking to my toolkit. I’m also fascinated by LLMs' parallels with human cognition and want to work on these models directly.
 
 ## What I'm Working On
 
 ### 1. **Obsidian-RAG Starter → 3D Modeling Starter**
+![dragon](/assets/dragon)
 **Stack: Typescript, Next.js, Zustand, Supabase/PostgreSQL + pgvector, inference and embedding APIs**    
 - This project tarted as a RAG app for my vault of neurobiology papers. I created a Substack series to document my learning process. There, I discuss RAG concepts such as vector embeddings, tokenization, chunking, etc., while tying in parallels between LLM inference and human semantic memory retrieval. **(https://psychobiomachine.substack.com/)**
 - It needed a working memory system that went beyond passing the entire session history with every prompt → So I created a `WorkingMemory` class to retain memory for different categories (user info, goals, topics). The class contains methods for updating this memory in ways that parallel human working memory. These methods make it so that the arrays containing topics and goals are organized by recency. I also used a Zustand store to initiate the `WorkingMemory` object on first render, persist it in local storage, and call the object methods on every turn.
-- Next: I realized I was creating a primitive narrow version of MCP, and that I can repurpose the working memory approach to conduct UI manipulation, such as rendering 3D models to support answers to a user query. A background LLM process can return JSON params that feed (awaiting) object methods. Then, those methods could pull elements from a component library and render them in the UI. So while I continue to work on this RAG app, I will also be orienting some effort toward a child app that models neurocognitive architectures.
+- Next: I realized I was creating a primitive/narrow version of MCP, and that I can repurpose the working memory approach to conduct UI manipulation, such as rendering 3D models to support answers to a user query. A background LLM process can return JSON params that feed (awaiting) object methods. Then, those methods could pull elements from a component library and render them in the UI. So while I continue to work on this RAG app, I will also be orienting some effort toward a child app that models neurocognitive architectures.
 
 **(https://github.com/PSYCHOBIOMACHINE/Obsidian-RAG-Starter)**
 
 ### 2. Learning: Containerization and Networking
+![n8n-banner](/assets/n8n-banner)
 **Stack: Docker, n8n, Discord**
 
 - This pursuit comes from my interest in understanding how full-stack applications live in the general internet space, and how architectures change when it comes time to scale.
