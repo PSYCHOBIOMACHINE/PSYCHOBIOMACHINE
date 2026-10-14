@@ -1,5 +1,5 @@
 ![header](/assets/linkedinheader.png)
-# Self-taught software developer · Full-stack · Cloud · AI engineering
+# Self-Taught Software Developer · Full-Stack · Cloud · AI Engineering
 Building RAG and AI-assisted applications in TypeScript
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-1a1a1a?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
