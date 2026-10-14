@@ -38,7 +38,7 @@ I’m two years into my full-stack software development journey, currently build
 ![n8n-banner](/assets/n8n-banner.png)
 
 - This pursuit comes from my interest in understanding how full-stack applications live in the general internet space, and how architectures change when it comes time to scale.
-- The repo contains a local n8n workspace set up in a Docker Compose. It contains one Docker network, with one container running n8n and another running PostgreSQL. The database isn’t published to the host so only n8n is reachable from the outside. This workspace contains sample automations for scraping RSS feeds for new information, and for obtaining financial data for an AI stocks watchlist. These automations relay their formatted output to a Discord server.
+- The repo contains a local n8n workspace set up in a Docker Compose. It contains one Docker network, with one container running n8n and another running PostgreSQL. The database container isn’t published to the host so only n8n is reachable from the outside. However, a second Postgres instance was created inside the n8n container as part of a solution when the basic RSS Feed trigger wouldnt cooperate. This workspace contains sample automations for scraping RSS feeds for new information, and for obtaining financial data for an AI stocks watchlist. These automations relay their formatted output to a Discord server via a webhook.
 - Where it’s going: I’m learning to containerize applications and host them on my own VPS, starting with private access over SSH or Tailscale.
 
 **(https://github.com/PSYCHOBIOMACHINE/n8n_demos)**
