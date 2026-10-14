@@ -22,7 +22,7 @@ I’m two years into my full-stack software development journey, currently build
 
 ### 1. **Obsidian-RAG Starter → 3D Modeling Starter**
 **Stack: Typescript, Next.js, Zustand, Supabase/PostgreSQL + pgvector, inference and embedding APIs**  
-  
+
 ![rag](/assets/rag.png)
 
 - This project started as a RAG app for my paper vault. I created a Substack series to document my learning process. There, I discuss RAG concepts such as vector embeddings, tokenization, chunking, etc., while tying in parallels between LLM inference and human semantic memory retrieval. **(https://psychobiomachine.substack.com/)**
@@ -32,8 +32,10 @@ I’m two years into my full-stack software development journey, currently build
 **(https://github.com/PSYCHOBIOMACHINE/Obsidian-RAG-Starter)**
 
 ### 2. Learning: Containerization and Networking
-![n8n-banner](/assets/n8n-banner.png)
+
 **Stack: Docker, n8n, Discord**
+
+![n8n-banner](/assets/n8n-banner.png)
 
 - This pursuit comes from my interest in understanding how full-stack applications live in the general internet space, and how architectures change when it comes time to scale.
 - The repot contains a local n8n workspace set up in a Docker Compose. It contains one Docker network, with one container running n8n and another running PostgreSQL. The database isn’t published to the host so only n8n is reachable from the outside. This workspace contains sample automations for scraping RSS feeds for new information, and for obtaining financial data for an AI stocks watchlist. These automations relay their formatted output to a Discord server.
