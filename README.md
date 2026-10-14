@@ -1,4 +1,4 @@
-![header](/linkedinheader.png)
+![header](/assets/linkedinheader.png)
 # Self-taught software developer · Full-stack · Cloud · AI engineering
 Building RAG and AI-assisted applications in TypeScript
 
