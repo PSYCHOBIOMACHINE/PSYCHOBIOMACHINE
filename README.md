@@ -21,8 +21,10 @@ I’m two years into my full-stack software development journey, currently build
 ## What I'm Working On
 
 ### 1. **Obsidian-RAG Starter → 3D Modeling Starter**
+**Stack: Typescript, Next.js, Zustand, Supabase/PostgreSQL + pgvector, inference and embedding APIs**  
+  
 ![rag](/assets/rag.png)
-**Stack: Typescript, Next.js, Zustand, Supabase/PostgreSQL + pgvector, inference and embedding APIs**    
+
 - This project started as a RAG app for my paper vault. I created a Substack series to document my learning process. There, I discuss RAG concepts such as vector embeddings, tokenization, chunking, etc., while tying in parallels between LLM inference and human semantic memory retrieval. **(https://psychobiomachine.substack.com/)**
 - It needed a working memory system that went beyond passing the entire session history with every prompt → So I created a `WorkingMemory` class to retain memory for different categories (user info, goals, topics). The class contains methods for updating this memory in ways that parallel human working memory. These methods make it so that the arrays containing topics and goals are organized by recency. I also used a Zustand store to initiate the `WorkingMemory` object on first render, persist it in local storage, and call the object methods on every turn.
 - Next: I realized I was creating a primitive/narrow version of MCP, and that I can repurpose the working memory approach to conduct UI manipulation, such as rendering 3D models to support answers to a user query. A background LLM process can return JSON params that feed (awaiting) object methods. Then, those methods could pull elements from a component library and render them in the UI. So while I continue to work on this RAG app, I will also be orienting some effort toward a child app that models neurocognitive architectures.
