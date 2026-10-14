@@ -21,7 +21,7 @@ I’m two years into full-stack development, currently building applications aro
 ## What I'm Working On
 
 ### 1. **Obsidian-RAG Starter → 3D Modeling Starter**
-![dragon](/assets/dragon)
+![dragon](/assets/dragon.png)
 **Stack: Typescript, Next.js, Zustand, Supabase/PostgreSQL + pgvector, inference and embedding APIs**    
 - This project tarted as a RAG app for my vault of neurobiology papers. I created a Substack series to document my learning process. There, I discuss RAG concepts such as vector embeddings, tokenization, chunking, etc., while tying in parallels between LLM inference and human semantic memory retrieval. **(https://psychobiomachine.substack.com/)**
 - It needed a working memory system that went beyond passing the entire session history with every prompt → So I created a `WorkingMemory` class to retain memory for different categories (user info, goals, topics). The class contains methods for updating this memory in ways that parallel human working memory. These methods make it so that the arrays containing topics and goals are organized by recency. I also used a Zustand store to initiate the `WorkingMemory` object on first render, persist it in local storage, and call the object methods on every turn.
@@ -30,7 +30,7 @@ I’m two years into full-stack development, currently building applications aro
 **(https://github.com/PSYCHOBIOMACHINE/Obsidian-RAG-Starter)**
 
 ### 2. Learning: Containerization and Networking
-![n8n-banner](/assets/n8n-banner)
+![n8n-banner](/assets/n8n-banner.png)
 **Stack: Docker, n8n, Discord**
 
 - This pursuit comes from my interest in understanding how full-stack applications live in the general internet space, and how architectures change when it comes time to scale.
