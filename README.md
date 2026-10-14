@@ -27,7 +27,7 @@ I’m two years into my full-stack software development journey, currently build
 
 - This project started as a RAG app for my paper vault. I created a Substack series to document my learning process. There, I discuss RAG concepts such as vector embeddings, tokenization, chunking, etc., while tying in parallels between LLM inference and human semantic memory retrieval. **(https://psychobiomachine.substack.com/)**
 - It needed a working memory system that went beyond passing the entire session history with every prompt → So I created a `WorkingMemory` class to retain memory for different categories (user info, goals, topics). The class contains methods for updating this memory in ways that parallel human working memory. These methods make it so that the arrays containing topics and goals are organized by recency. I also used a Zustand store to initiate the `WorkingMemory` object on first render, persist it in local storage, and call the object methods on every turn.
-- Next: I realized I was creating a primitive/narrowed version of MCP, and that I can repurpose the working memory approach to conduct UI manipulation, such as rendering 3D models to support answers to a user query. A background LLM process can return JSON params that feed (awaiting) object methods. Then, those methods could pull elements from a component library and render them in the UI. So while I continue to work on this RAG app, I will also be orienting some effort toward a child app that models neurocognitive architectures.
+- **Next**: I realized I was creating a primitive/narrowed version of MCP, and that I can repurpose the working memory approach to conduct UI manipulation, such as rendering 3D models to support answers to a user query. A background LLM process can return JSON params that feed (awaiting) object methods. Then, those methods could pull elements from a component library and render them in the UI. So while I continue to work on this RAG app, I will also be orienting some effort toward a child app that models neurocognitive architectures.
 
 **(https://github.com/PSYCHOBIOMACHINE/Obsidian-RAG-Starter)**
 
@@ -39,7 +39,7 @@ I’m two years into my full-stack software development journey, currently build
 
 - This pursuit comes from my interest in understanding how full-stack applications live in the general internet space, and how architectures change when it comes time to scale.
 - The repo contains a local n8n workspace set up in a Docker Compose. It contains one Docker network, with one container running n8n and another running PostgreSQL. The database container isn’t published to the host so only n8n is reachable from the outside. However, a second Postgres instance was created inside the n8n container as part of a solution when the basic RSS Feed trigger wouldnt cooperate. This workspace contains sample automations for scraping RSS feeds for new information, and for obtaining financial data for an AI stocks watchlist. These automations relay their formatted output to a Discord server via a webhook.
-- Where it’s going: I’m learning to containerize applications and host them on my own VPS, starting with private access over SSH or Tailscale.
+- **Where it’s going**: I’m learning to containerize applications and host them on my own VPS, starting with private access over SSH or Tailscale.
 
 **(https://github.com/PSYCHOBIOMACHINE/n8n_demos)**
 
